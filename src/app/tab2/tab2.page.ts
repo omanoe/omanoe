@@ -8,5 +8,11 @@ import { Component } from '@angular/core';
 export class Tab2Page {
 
   constructor() {}
+  ngOnInit(){
+    let numero = 10;
+   debugger;
+    numero = numero + 15;
+    console.log(numero);
+  }
 
 }
